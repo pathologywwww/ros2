@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker_listener[0m
+[0.035s] [ 50%] [32mBuilding CXX object CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o[0m
+[1.530s] [01m[K/home/collapsar/ws/src/example/src/talker_listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.531s] [01m[K/home/collapsar/ws/src/example/src/talker_listener.cpp:5:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.531s]     5 | int main([01;35m[Kint argc[m[K,char **argv)
+[1.531s]       |          [01;35m[K~~~~^~~~[m[K
+[1.531s] [01m[K/home/collapsar/ws/src/example/src/talker_listener.cpp:5:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.531s]     5 | int main(int argc,[01;35m[Kchar **argv[m[K)
+[1.531s]       |                   [01;35m[K~~~~~~~^~~~[m[K
+[2.190s] [100%] [32m[1mLinking CXX executable talker_listener[0m
+[2.341s] [100%] Built target talker_listener
+[2.346s] Invoked command in '/home/collapsar/ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+[2.351s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/collapsar/ws/build/example
+[2.354s] -- Install configuration: "RelWithDebInfo"
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/package_run_dependencies/example
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/parent_prefix_path/example
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.sh
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.dsv
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.sh
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.dsv
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.bash
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.sh
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.zsh
+[2.354s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.dsv
+[2.355s] -- Installing: /home/collapsar/ws/install/example/share/example/package.dsv
+[2.355s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/packages/example
+[2.355s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig.cmake
+[2.355s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig-version.cmake
+[2.355s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/package.xml
+[2.356s] Invoked command in '/home/collapsar/ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/collapsar/ws/build/example

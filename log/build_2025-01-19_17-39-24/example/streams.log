@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/collapsar/ws/src/example -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/collapsar/ws/install/example
+[0.010s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.074s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.074s]   find_package called with incorrect number of arguments
+[0.074s] 
+[0.074s] [0m
+[0.075s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.109s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.109s] -- Configured cppcheck include dirs: 
+[0.109s] -- Configured cppcheck exclude dirs and/or files: 
+[0.110s] -- Added test 'lint_cmake' to check CMake code style
+[0.110s] -- Added test 'uncrustify' to check C / C++ code style
+[0.110s] -- Configured uncrustify additional arguments: 
+[0.110s] -- Added test 'xmllint' to check XML markup files
+[0.110s] -- Configuring incomplete, errors occurred!
+[0.110s] See also "/home/collapsar/ws/build/example/CMakeFiles/CMakeOutput.log".
+[0.112s] Invoked command in '/home/collapsar/ws/build/example' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/collapsar/ws/src/example -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=On -Wall -Wextra -Wpedantic -DCMAKE_INSTALL_PREFIX=/home/collapsar/ws/install/example

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (example) JobQueued: {'identifier': 'example', 'dependencies': OrderedDict()}
+[0.000301] (example) JobStarted: {'identifier': 'example'}
+[0.005786] (example) JobProgress: {'identifier': 'example', 'progress': 'cmake'}
+[0.006614] (example) JobProgress: {'identifier': 'example', 'progress': 'build'}
+[0.006764] (example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/collapsar/ws/build/example', '--', '-j32', '-l32'], 'cwd': '/home/collapsar/ws/build/example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'collapsar'), ('GIT_ASKPASS', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/collapsar'), ('OLDPWD', '/home/collapsar/ws/src'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3a89a07e-5022-42af-8caf-202bf6cd5779.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'collapsar'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1612_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/VMwork/bin/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/matlab/runtime/win64:/mnt/c/matlab/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/workspace/opencv/build/x64/vc16/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/vs/bin:/mnt/c/workspace/opencv/newbuild/install:/mnt/c/Users/18507/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/18507/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/18507/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/18507/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-541e511793.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/collapsar/ws/build/example'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026176] (example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099401] (-) TimerEvent: {}
+[0.133454] (example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.201405] (-) TimerEvent: {}
+[0.304779] (-) TimerEvent: {}
+[0.309455] (example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.314623] (example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.324754] (example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.341055] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.355891] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399570] (example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.402856] (example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.404953] (-) TimerEvent: {}
+[0.505497] (-) TimerEvent: {}
+[0.606602] (-) TimerEvent: {}
+[0.707066] (-) TimerEvent: {}
+[0.807364] (-) TimerEvent: {}
+[0.909569] (-) TimerEvent: {}
+[1.012600] (-) TimerEvent: {}
+[1.115646] (-) TimerEvent: {}
+[1.218697] (-) TimerEvent: {}
+[1.321688] (-) TimerEvent: {}
+[1.424696] (-) TimerEvent: {}
+[1.527775] (-) TimerEvent: {}
+[1.630859] (-) TimerEvent: {}
+[1.717444] (example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.731066] (-) TimerEvent: {}
+[1.832592] (-) TimerEvent: {}
+[1.935599] (-) TimerEvent: {}
+[2.037803] (-) TimerEvent: {}
+[2.140846] (-) TimerEvent: {}
+[2.243924] (-) TimerEvent: {}
+[2.346953] (-) TimerEvent: {}
+[2.450072] (-) TimerEvent: {}
+[2.553123] (-) TimerEvent: {}
+[2.656217] (-) TimerEvent: {}
+[2.759247] (-) TimerEvent: {}
+[2.859759] (-) TimerEvent: {}
+[2.962513] (-) TimerEvent: {}
+[2.994181] (example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.064534] (-) TimerEvent: {}
+[3.167614] (-) TimerEvent: {}
+[3.270647] (-) TimerEvent: {}
+[3.373670] (-) TimerEvent: {}
+[3.476810] (-) TimerEvent: {}
+[3.580012] (-) TimerEvent: {}
+[3.683035] (-) TimerEvent: {}
+[3.786109] (-) TimerEvent: {}
+[3.889149] (-) TimerEvent: {}
+[3.992182] (-) TimerEvent: {}
+[4.095303] (-) TimerEvent: {}
+[4.198364] (-) TimerEvent: {}
+[4.301411] (-) TimerEvent: {}
+[4.404534] (-) TimerEvent: {}
+[4.507614] (-) TimerEvent: {}
+[4.610668] (-) TimerEvent: {}
+[4.713786] (-) TimerEvent: {}
+[4.816941] (-) TimerEvent: {}
+[4.920105] (-) TimerEvent: {}
+[5.022790] (-) TimerEvent: {}
+[5.123396] (-) TimerEvent: {}
+[5.226448] (-) TimerEvent: {}
+[5.329690] (-) TimerEvent: {}
+[5.432874] (-) TimerEvent: {}
+[5.535923] (-) TimerEvent: {}
+[5.578241] (example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.590189] (example) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.637362] (-) TimerEvent: {}
+[5.740451] (-) TimerEvent: {}
+[5.822107] (example) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.822523] (example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.840699] (-) TimerEvent: {}
+[5.941087] (-) TimerEvent: {}
+[5.961822] (example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.962493] (example) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.016702] (example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.042032] (-) TimerEvent: {}
+[6.067754] (example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.067911] (example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.067947] (example) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.068622] (example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.069341] (example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.069418] (example) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.069696] (example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.071032] (example) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.081364] (example) StdoutLine: {'line': b'-- Generating done\n'}
+[6.084247] (example) StdoutLine: {'line': b'-- Build files have been written to: /home/collapsar/ws/build/example\n'}
+[6.103276] (example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o\x1b[0m\n'}
+[6.143262] (-) TimerEvent: {}
+[6.246388] (-) TimerEvent: {}
+[6.319658] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/collapsar/ws/src/example/src/talker_listener.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.319932] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/collapsar/ws/src/example/src/talker_listener.cpp:4:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.319966] (example) StderrLine: {'line': b'    4 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K,char **argv)\n'}
+[6.319994] (example) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[6.320020] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/collapsar/ws/src/example/src/talker_listener.cpp:4:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.320047] (example) StderrLine: {'line': b'    4 | int main(int argc,\x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[6.320082] (example) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.347282] (-) TimerEvent: {}
+[6.370770] (example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker_listener\x1b[0m\n'}
+[6.449557] (-) TimerEvent: {}
+[6.537553] (example) StdoutLine: {'line': b'[100%] Built target talker_listener\n'}
+[6.543681] (example) CommandEnded: {'returncode': 0}
+[6.544600] (example) JobProgress: {'identifier': 'example', 'progress': 'install'}
+[6.550482] (example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/collapsar/ws/build/example'], 'cwd': '/home/collapsar/ws/build/example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'collapsar'), ('GIT_ASKPASS', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/collapsar'), ('OLDPWD', '/home/collapsar/ws/src'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3a89a07e-5022-42af-8caf-202bf6cd5779.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'collapsar'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1612_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/collapsar/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/VMwork/bin/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/matlab/runtime/win64:/mnt/c/matlab/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/workspace/opencv/build/x64/vc16/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/vs/bin:/mnt/c/workspace/opencv/newbuild/install:/mnt/c/Users/18507/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/18507/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/18507/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/18507/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-541e511793.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/collapsar/ws/build/example'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.550825] (-) TimerEvent: {}
+[6.553848] (example) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[6.553987] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/package_run_dependencies/example\n'}
+[6.554022] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/parent_prefix_path/example\n'}
+[6.554050] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.sh\n'}
+[6.554077] (example) StdoutLine: {'line': b'-- Installing: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.dsv\n'}
+[6.554353] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.sh\n'}
+[6.554413] (example) StdoutLine: {'line': b'-- Installing: /home/collapsar/ws/install/example/share/example/environment/path.dsv\n'}
+[6.554569] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.bash\n'}
+[6.554676] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.sh\n'}
+[6.554713] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.zsh\n'}
+[6.554741] (example) StdoutLine: {'line': b'-- Installing: /home/collapsar/ws/install/example/share/example/local_setup.dsv\n'}
+[6.554933] (example) StdoutLine: {'line': b'-- Installing: /home/collapsar/ws/install/example/share/example/package.dsv\n'}
+[6.554967] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/packages/example\n'}
+[6.554993] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig.cmake\n'}
+[6.555020] (example) StdoutLine: {'line': b'-- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig-version.cmake\n'}
+[6.555043] (example) StdoutLine: {'line': b'-- Installing: /home/collapsar/ws/install/example/share/example/package.xml\n'}
+[6.555825] (example) CommandEnded: {'returncode': 0}
+[6.565039] (example) JobEnded: {'identifier': 'example', 'rc': 0}
+[6.565945] (-) EventReactorShutdown: {}

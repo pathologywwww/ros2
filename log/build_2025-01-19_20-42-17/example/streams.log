@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target talker_listener[0m
+[0.039s] [ 50%] [32mBuilding CXX object CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o[0m
+[2.665s] [100%] [32m[1mLinking CXX executable talker_listener[0m
+[2.803s] [100%] Built target talker_listener
+[2.810s] Invoked command in '/home/collapsar/ws/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+[2.816s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/collapsar/ws/build/example
+[2.819s] -- Install configuration: "RelWithDebInfo"
+[2.819s] -- Installing: /home/collapsar/ws/install/example/lib/example/talker_listener
+[2.820s] -- Set runtime path of "/home/collapsar/ws/install/example/lib/example/talker_listener" to ""
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/include/example
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/include/example/example
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/include/example/example/topic
+[2.820s] -- Installing: /home/collapsar/ws/install/example/include/example/example/topic/talker.hpp
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/package_run_dependencies/example
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/parent_prefix_path/example
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.sh
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.dsv
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.sh
+[2.820s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.dsv
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.bash
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.sh
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.zsh
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.dsv
+[2.821s] -- Installing: /home/collapsar/ws/install/example/share/example/package.dsv
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/packages/example
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig.cmake
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig-version.cmake
+[2.821s] -- Up-to-date: /home/collapsar/ws/install/example/share/example/package.xml
+[2.821s] Invoked command in '/home/collapsar/ws/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/collapsar/ws/build/example

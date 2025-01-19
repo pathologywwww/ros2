@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o[0m
+[0.063s] [01m[K/home/collapsar/ws/src/example/src/talker_listener.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample/topic/talker.hpp: No such file or directory
+[0.063s]     2 | #include [01;31m[K"example/topic/talker.hpp"[m[K
+[0.063s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.063s] compilation terminated.
+[0.064s] gmake[2]: *** [CMakeFiles/talker_listener.dir/build.make:76: CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o] Error 1
+[0.065s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker_listener.dir/all] Error 2
+[0.065s] gmake: *** [Makefile:146: all] Error 2
+[0.068s] Invoked command in '/home/collapsar/ws/build/example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32

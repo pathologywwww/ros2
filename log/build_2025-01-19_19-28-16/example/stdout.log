@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talker_listener.dir/src/talker_listener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker_listener[0m
+[100%] Built target talker_listener
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/package_run_dependencies/example
+-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/parent_prefix_path/example
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.sh
+-- Installing: /home/collapsar/ws/install/example/share/example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/environment/path.sh
+-- Installing: /home/collapsar/ws/install/example/share/example/environment/path.dsv
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.bash
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.sh
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/local_setup.zsh
+-- Installing: /home/collapsar/ws/install/example/share/example/local_setup.dsv
+-- Installing: /home/collapsar/ws/install/example/share/example/package.dsv
+-- Up-to-date: /home/collapsar/ws/install/example/share/ament_index/resource_index/packages/example
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig.cmake
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/cmake/exampleConfig-version.cmake
+-- Up-to-date: /home/collapsar/ws/install/example/share/example/package.xml

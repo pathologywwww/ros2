@@ -1,0 +1,2 @@
+Invoking command in '/home/collapsar/ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
+Invoked command in '/home/collapsar/ws/build/example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/collapsar/ws/build/example -- -j32 -l32
